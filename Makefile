@@ -10,3 +10,6 @@ all:	$(TARGETS)
 
 arpspoof:	$(OBJ)
 		$(CC) $(CFLAGS) -o $@ $(OBJ)
+
+clean:
+	rm -fr *.o arpspoof
